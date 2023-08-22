@@ -1,0 +1,145 @@
+:root {
+    --cor-primaria: #3a68b7;
+}
+
+html {
+    background-color: var(--cor-primaria) ;
+    font-family: "helvetica Neue", Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+form {
+    width: 90%;
+    min-width: 28.125em;
+    max-width: 40.62em;
+    background-color: white;
+    padding: 1em;
+    box-shadow: -10px 0px 0px 0px rgba(0, 0, 0, .2);
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: var(--cor-primaria);
+}
+
+label, input {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input {
+    border: 2px solid transparent;
+    border-bottom-color: var(--cor-primaria);
+    padding-top: .75em;
+    margin: 0.5em 0 2.5em;
+    color: black;
+    outline: 0;
+    font-size: 1.2em;
+    padding-bottom: .75em;
+}
+
+input:focus {
+    padding-left: 1em;
+    transition: padding-left;
+    transition-duration: .1s;
+    transition-timing-function: linear;
+}
+
+legend {
+    font-size: 2.8em;
+    padding: .5em;
+}
+
+label {
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.botoes{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+
+.btn {
+    background-color: var(--cor-primaria);
+    color: white;
+    padding: 1em;
+    cursor: pointer;
+    font-size: 1.2em;
+    border: none;
+    border-radius: .5em;
+    text-transform: uppercase;
+    letter-spacing: .2px;
+    width: 250px;
+}
+.link {
+    text-align: right;
+    text-transform: none;
+    flex-grow: 1;
+    font-size: 1em;
+    margin-left: 2px;
+}
+
+p{
+     color: black;
+}
+.btn2 {
+    background-color: white;
+    color: var(--cor-primaria);
+    padding: 1em;
+    cursor: pointer;
+    font-size: 1.2em;
+    border: none;
+    border-radius: .5em;
+    text-transform: uppercase;
+    letter-spacing: .2px;
+    width: 250px;
+}
+.btn3 {
+    background-color: var(--cor-primaria);
+    color: white;
+    padding: 1em;
+    cursor: pointer;
+    font-size: 1.2em;
+    border: none;
+    border-radius: .5em;
+    text-transform: uppercase;
+    letter-spacing: .2px;
+    width: 200px;
+}
+
+.btn2:hover {
+    background-color: rgb(236, 235, 235);
+}
+.btn2:active {
+    background-color: rgb(219, 219, 219);
+}
+
+.btn3:hover {
+    background-color: #3361b1;
+}
+.btn3:active {
+    background-color:#264f96;
+}
+
+.btn:hover {
+    background-color: #3361b1;
+}
+.btn:active {
+    background-color:#264f96;
+}
